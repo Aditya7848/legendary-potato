@@ -1,0 +1,144 @@
+/*===========================================================*/
+/*for removing the arrows in input field*/
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/*==========================================================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -180px;
+    margin-left: -400px;
+    border: 2px solid black;
+  }
+  label{
+    font-weight: bold;
+  }
+  .container-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  input{
+    font-size: large;
+    height: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  /* p{
+    overflow: clip;
+  } */
+
+/*==============================================*/
+.input-btn-merge{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.btn-lft{
+    width: 33px;
+    height: 33px;
+    z-index: 1;
+}
+.person-btn-lft{
+    width: 33px;
+    z-index: 1;
+    height: 33px;
+}
+.txt-tip-percent{
+    position: relative;
+}
+.btn-rit{
+    width: 35px;
+    z-index: 1;
+    height: 34px;
+    margin-left: 22px;
+}
+.person-btn-rit{
+    width: 33px;
+    z-index: 1;
+    height: 33px;
+}
+.present-simbol{
+    z-index: 2;
+    font-weight: bold;
+}
+/*==============================================*/
+.container-right{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px 20px;
+    justify-items: center;
+    align-items: center;
+    margin-right: 100px;
+  }
+  .div1{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .tip-txt{
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .div2{
+    font-size: 300%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tip-muney{
+    font-size: 100%;
+  }
+  .div3{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .total-txt{
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .div4{
+    font-size: 300%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tip-total-muney{
+    font-size: 100%;
+  }
+  /*========================================================*/
